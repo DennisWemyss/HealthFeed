@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="706px" height="1024px" viewBox="0 0 706 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>funky</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="23.5000383%" y1="15.9255174%" x2="88.0967921%" y2="89.1311541%" id="linearGradient-1">
+            <stop stop-color="#04FFD3" offset="0%"></stop>
+            <stop stop-color="#215EFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-734.000000, 0.000000)" fill="url(#linearGradient-1)">
+            <path d="M1634.00248,1224.24893 C1728.52355,1224.24893 1574.54216,245.072847 1440,-35.421875 C1297.03929,-333.467668 957.898438,-172.890625 957.898438,13.703125 C957.898438,157.185154 1135.17969,169.132812 1135.17969,413.765625 C1135.17969,658.398438 621.476562,563.8125 756.682163,1076.45987 C891.887764,1589.10724 1439.04596,1224.24893 1634.00248,1224.24893 Z" id="funky"></path>
+        </g>
+    </g>
+</svg>

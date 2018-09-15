@@ -1,0 +1,105 @@
+@import 'utils.scss';
+html {
+    background-image: linear-gradient(-140deg, #EBF5FA 0%, #FFFFFF 100%);
+}
+
+body {
+    background-image: url("../img/funky.svg");
+    background-repeat:no-repeat;
+    background-position: right bottom;
+    overflow:hidden;
+
+    @include phone {
+        background-image: url("../img/funky-mobile.svg");
+    }
+}
+
+#landing {
+
+    height:100%;
+    width:100%;
+    position:absolute;
+    overflow:hidden;
+    
+    @include phone {
+
+    }
+    @include tablet {
+
+    }
+
+    h2 {
+    font-family: OpenSans-Bold;
+    font-size: 32px;
+    color: #215EFF;
+    margin-top:15px;
+    z-index:10;
+    margin-left:50px;
+    
+
+    @include phone {
+        font-size:24px;
+        margin-left:20px;
+      }
+
+    }
+
+    p {
+    font-family: OpenSans-Bold;
+    font-size: 20px;
+    color: #215EFF;
+    margin-top:15px;
+    z-index:10;
+    margin-left:50px;
+
+    @include phone {
+        font-size:12px;
+        margin-left:20px;
+      }
+
+    a {
+        color: #215EFF;
+    }
+    }
+}
+
+#logo {
+    margin-top:10em;
+    width:20em;
+    height:auto;
+    z-index:10;
+    margin-left:50px;
+
+    @include phone {
+        margin-left:20px;
+    }
+}
+
+#dash-example {
+margin-left:-35px;
+}
+
+#phones {
+    position: absolute;
+    right: -40px;
+    bottom:0;
+    width: 25em;
+    z-index: 1;
+}
+
+#dash-phones {
+    position: absolute;
+    bottom: -10%;
+    right: 0%;
+
+    @include phone {
+        bottom: 3%;
+        right: -5%;
+      }
+
+    @include tablet {
+       right: -10%;
+      }
+    
+ 
+}

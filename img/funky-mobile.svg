@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="582px" height="453px" viewBox="0 0 582 453" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>funky copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="23.5000383%" y1="15.9255174%" x2="88.0967921%" y2="89.1311541%" id="linearGradient-1">
+            <stop stop-color="#04FFD3" offset="0%"></stop>
+            <stop stop-color="#215EFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(0.000000, -1408.000000)" fill="url(#linearGradient-1)">
+            <path d="M822.306384,2380.95999 C912.076193,2380.95999 872.279899,1602.52938 1041.85162,1409.98581 C1136.8325,1302.13789 442.045688,1270.52996 367.125275,1449.18 C321.817561,1557.21765 408.035644,1653.28497 196.866568,1772.82272 C-14.3025078,1892.36047 -139.323116,1753.95628 -10.9138648,2240.65233 C117.495386,2727.34838 637.149703,2380.95999 822.306384,2380.95999 Z" id="funky-copy" transform="translate(493.954634, 1911.294497) rotate(21.000000) translate(-493.954634, -1911.294497) "></path>
+        </g>
+    </g>
+</svg>

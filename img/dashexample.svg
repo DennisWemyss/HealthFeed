@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="848px" height="371px" viewBox="0 0 848 371" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>dashexample</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-9.0%" y="-12.4%" width="115.5%" height="137.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="12" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="0" width="787" height="330" rx="13"></rect>
+        <filter x="-5.7%" y="-7.6%" width="108.9%" height="121.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="-10" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.117647059   0 0 0 0 0.117647059   0 0 0 0 0.117647059  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="100%" y1="50%" x2="1.74539379%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#C887EB" stop-opacity="0.65" offset="0%"></stop>
+            <stop stop-color="#C887EB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-5">
+            <stop stop-color="#5E77FF" stop-opacity="0.65" offset="0%"></stop>
+            <stop stop-color="#5E77FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-182.000000, -653.000000)">
+            <g id="dashexample" filter="url(#filter-1)" transform="translate(219.000000, 667.000000)">
+                <g id="card">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <text id="sales" font-family="OpenSans-Bold, Open Sans" font-size="20" font-weight="bold" line-spacing="20" fill="#282D32">
+                    <tspan x="40" y="55">Distance to goal</tspan>
+                </text>
+                <path d="M96,261 C121.980136,206.666927 140.187273,179.50039 150.621414,179.50039 C166.272624,179.50039 201.523592,240.210938 240.5375,240.210938 C279.551408,240.210938 291.875,219.112891 342.1625,210.675781 C392.45,202.238672 395.451412,250.435658 420.338925,250.435658 C445.226438,250.435658 482.44359,199.92889 500.551987,199.92889 C517.69402,199.92889 524.079792,250.435658 576.812183,250.435658 C629.544574,250.435658 662.441667,147.132812 686.341667,147.132812 C702.275,147.132812 718.827778,185.088542 736,261 L96,261 Z" id="graph---02" fill="url(#linearGradient-4)"></path>
+                <path d="M96,261 C119.353362,243.821944 140.854404,235.232916 160.503125,235.232916 C189.976206,235.232916 191.944271,247.054688 245.458333,247.054688 C298.972396,247.054688 318.20661,193 327.958333,193 C337.710057,193 338.462857,235.232916 364.366667,235.232916 C393.404531,235.232916 413.774931,125 435.115645,125 C462.179196,125 476.475138,224.20364 500.815625,224.20364 C525.156112,224.20364 540.0625,171.575502 564.905021,171.575502 C586.966667,171.575502 602.571345,226.103203 618.391808,232.245147 C635.08402,238.725527 642.773,187.170761 674.156098,187.170761 C695.078163,187.170761 715.692797,211.780507 736,261 L96,261 Z" id="graph---01" fill="url(#linearGradient-5)"></path>
+                <g id="tooltip" transform="translate(395.000000, 94.000000)" fill="#5E77FF">
+                    <path d="M46,22 L40,27.9770508 L34,22 L2,22 C0.8954305,22 1.3527075e-16,21.1045695 0,20 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 L78,0 C79.1045695,-2.02906125e-16 80,0.8954305 80,2 L80,20 C80,21.1045695 79.1045695,22 78,22 L46,22 Z" id="Combined-Shape"></path>
+                </g>
+                <g id="units" transform="translate(40.000000, 100.000000)" font-size="12" line-spacing="9">
+                    <text id="700m" font-family="OpenSans-Bold, Open Sans" font-weight="bold" fill="#2B3034" fill-opacity="0.4">
+                        <tspan x="679.5" y="194">700m</tspan>
+                    </text>
+                    <text id="0m" font-family="OpenSans-Bold, Open Sans" font-weight="bold" fill="#2B3034" fill-opacity="0.4">
+                        <tspan x="46.5" y="194">0m</tspan>
+                    </text>
+                    <text id="20%" font-family=".AppleSystemUIFont" font-weight="normal" fill="#2B3034" fill-opacity="0.4">
+                        <tspan x="0" y="168">20%</tspan>
+                    </text>
+                    <text id="40%" font-family=".AppleSystemUIFont" font-weight="normal" fill="#2B3034" fill-opacity="0.4">
+                        <tspan x="0" y="129">40%</tspan>
+                    </text>
+                    <text id="60%" font-family=".AppleSystemUIFont" font-weight="normal" fill="#2B3034" fill-opacity="0.4">
+                        <tspan x="0" y="90">60%</tspan>
+                    </text>
+                    <text id="80%" font-family=".AppleSystemUIFont" font-weight="normal" fill="#2B3034" fill-opacity="0.4">
+                        <tspan x="0" y="51">80%</tspan>
+                    </text>
+                    <text id="100%" font-family=".AppleSystemUIFont" font-weight="normal" fill="#2B3034" fill-opacity="0.4">
+                        <tspan x="0" y="12">100%</tspan>
+                    </text>
+                    <text id="100m" font-family="OpenSans-Bold, Open Sans" font-weight="bold" fill="#2B3034" fill-opacity="0.4">
+                        <tspan x="126.5" y="194">100m</tspan>
+                    </text>
+                    <text id="200m" font-family="OpenSans-Bold, Open Sans" font-weight="bold" fill="#2B3034" fill-opacity="0.4">
+                        <tspan x="216.5" y="194">200m</tspan>
+                    </text>
+                    <text id="300m" font-family="OpenSans-Bold, Open Sans" font-weight="bold" fill="#2B3034" fill-opacity="0.4">
+                        <tspan x="309" y="194">300m</tspan>
+                    </text>
+                    <text id="95%-to-goal" font-family="OpenSans-Bold, Open Sans" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="361" y="13">95% to goal</tspan>
+                    </text>
+                    <text id="400m" font-family="OpenSans-Bold, Open Sans" font-weight="bold" fill="#2B3034" fill-opacity="0.4">
+                        <tspan x="401.5" y="194">400m</tspan>
+                    </text>
+                    <text id="600m" font-family="OpenSans-Bold, Open Sans" font-weight="bold" fill="#5E77FF">
+                        <tspan x="587.5" y="194">600m</tspan>
+                    </text>
+                    <text id="500m" font-family="OpenSans-Bold, Open Sans" font-weight="bold" fill="#2B3034" fill-opacity="0.4">
+                        <tspan x="494.5" y="194">500m</tspan>
+                    </text>
+                </g>
+                <g id="month" transform="translate(649.000000, 39.000000)">
+                    <g id="icons/icon_chevron-down" transform="translate(88.000000, 0.000000)">
+                        <g id="icon_chevron-down">
+                            <rect id="frame" x="0" y="0" width="10" height="10"></rect>
+                            <path d="M8.85892127,2.26811494 L5,6.29356107 L1.14107873,2.26811494 C0.836791399,1.91807615 0.53250336,1.91078339 0.228216029,2.24623742 C-0.0760720097,2.58169145 -0.0760720097,2.90985273 0.228216029,3.23072125 L4.54356865,7.78122557 C4.65421872,7.92707544 4.80636203,8 5,8 C5.19363797,8 5.34578128,7.92707544 5.45643135,7.78122557 L9.77178397,3.23072125 C10.076072,2.90985273 10.076072,2.58169145 9.77178397,2.24623742 C9.46749664,1.91078339 9.1632086,1.91807615 8.85892127,2.26811494 Z" id="Shape" fill-opacity="0.4" fill="#2B3034" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                    <text id="Last-Month" font-family="HiraginoSans-W9, Hiragino Sans" font-size="12" font-weight="700" line-spacing="10" fill="#2B3034" fill-opacity="0.4">
+                        <tspan x="0" y="11">Last Month</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
