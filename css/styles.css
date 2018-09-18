@@ -11,10 +11,11 @@ body {
       background-image: url("../img/funky-mobile.svg"); } }
 
 #landing {
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   position: absolute;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: 2; }
   #landing h2 {
     font-family: OpenSans-Bold;
     font-size: 32px;
@@ -40,6 +41,24 @@ body {
     #landing p a {
       color: #215EFF; }
 
+#sign-up-btn {
+  border: 8px solid #54D4BE;
+  padding: 3px 30px;
+  font-family: OpenSans-Bold;
+  font-size: 20px;
+  color: #215EFF;
+  margin-left: 50px;
+  background-color: transparent;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out; }
+  #sign-up-btn:hover {
+    border: 8px solid #215EFF;
+    background-color: #215EFF;
+    color: white; }
+
 #logo {
   margin-top: 10em;
   width: 20em;
@@ -61,7 +80,8 @@ body {
   z-index: 1; }
 
 #dash-phones {
-  position: absolute;
+  position: fixed;
+  margin-top: 10em;
   bottom: -10%;
   right: 0%; }
   @media (max-width: 767px) {
@@ -70,7 +90,22 @@ body {
       right: -5%; } }
   @media (min-width: 768px) and (max-width: 1023px) {
     #dash-phones {
-      right: -10%; } }
+      right: -10%;
+      bottom: 5%; } }
+
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 35px;
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient(-140deg, #04FFD3 7%, #215EFF 100%); }
+  footer p {
+    font-family: OpenSans-Bold;
+    padding-top: 7px;
+    font-size: 14px;
+    color: white; }
 
 /*********************************************************/
 /* Normalize.css v2.0.1 | MIT License | git.io/normalize */
